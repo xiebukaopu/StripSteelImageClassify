@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StripSteelImageClassify", "StripSteelImageClassify\StripSteelImageClassify.vcxproj", "{5FB3B0C8-1C31-431F-9144-81C78448CEE7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C1203F39-255A-42F9-B647-891EC110C4A9} = {C1203F39-255A-42F9-B647-891EC110C4A9}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImgFeatureExtraction", "ImgFeatureExtraction\ImgFeatureExtraction.vcxproj", "{C1203F39-255A-42F9-B647-891EC110C4A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FB3B0C8-1C31-431F-9144-81C78448CEE7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5FB3B0C8-1C31-431F-9144-81C78448CEE7}.Debug|Win32.Build.0 = Debug|Win32
+		{5FB3B0C8-1C31-431F-9144-81C78448CEE7}.Release|Win32.ActiveCfg = Release|Win32
+		{5FB3B0C8-1C31-431F-9144-81C78448CEE7}.Release|Win32.Build.0 = Release|Win32
+		{C1203F39-255A-42F9-B647-891EC110C4A9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C1203F39-255A-42F9-B647-891EC110C4A9}.Debug|Win32.Build.0 = Debug|Win32
+		{C1203F39-255A-42F9-B647-891EC110C4A9}.Release|Win32.ActiveCfg = Release|Win32
+		{C1203F39-255A-42F9-B647-891EC110C4A9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
